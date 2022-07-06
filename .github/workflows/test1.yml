@@ -31,5 +31,5 @@ jobs:
       - name: Run my action
         uses: ./
         with:
-          name: 'Hello world'
+          name: 'Hello world This is Koduri'
           ghToken: ${{ secrets.GITHUB_TOKEN }}
