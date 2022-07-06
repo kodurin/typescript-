@@ -1,6 +1,6 @@
 name: 'Typescript based action'
-author: 'admin''
-
+author: 'admin'
+description: 'Custom GH action with TypeScript'
 
 inputs:
   name:
