@@ -1,0 +1,16 @@
+name: 'Typescript based action'
+author: 'admin''
+description: 'Custom GH action with TypeScript'
+
+inputs:
+  name:
+    description: 'Hello from typescript'
+    required: false
+    default: 'Hello from typescript'
+  ghToken:
+    description: 'Github access token'
+    required: false
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
